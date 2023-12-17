@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Manuel Sánchez Sánchez-Barba</title>
+        <link rel="icon" href="img/logo.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <img src="img/prueba-modified.png" alt="logo">
+                    <a href="#">Manuel Sánchez</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#formacion" onclick="seleccionar()">FORMACIÓN</a></li>
+                        <li><a href="#tecnologias" onclick="seleccionar()">TECNOLOGÍAS</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrar_ocultar_menu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div> 
+            </header>
+        </div>
+
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/foto_cir.png" alt="">
+                </div>
+                <h1>MANUEL SÁNCHEZ SÁNCHEZ-BARBA</h1>
+                <h2><br>Ingeniero Informático</h2>
+                <div class="redes">
+                    <a href="mailto:manuelsanchezbarba@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#" id="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" id="github"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre mi</h2>
+                <p><span>Hola, soy Manuel Sánchez,</span> estudiante de Ingeniería Informática con ganas de aprender y mejorar.
+                    Mi responsabilidad, dedicación y esfuerzo me han conducido durante
+                    cuatro años de aprendizaje para poner a prueba mis capacidades y a
+                    mejorar muchas de ellas.</p>
+                    <p>Mi objetivo es crecer en el ámbito tecnológico
+                        junto a personas que me hagan mejorar como profesional, poniendo a
+                        prueba mis conocimientos en un entorno de trabajo real.
+                    </p>
+
+                <div class="fila">
+                    <div class="col">
+                        <h3>Datos personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Nombre completo</strong>
+                                Manuel Sánchez Sánchez-Barba
+                            </li>
+                            <li>
+                                <strong>Fecha de nacimiento</strong>
+                                25/08/2002
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                manuelsanchezbarba@gmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Ciudad Real, España
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h3>Soft-Skills</h3>
+                        <div class="contenedor-competencias">
+                            <div class="competencias">
+                                <i class="fa-solid fa-people-group"></i>
+                                <span>Trabajo en equipo</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-code-compare"></i>
+                                <span>Adaptación</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-user-tie"></i>
+                                <span>Liderazgo</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Empatía</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-street-view"></i>
+                                <span>Responsabilidad</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-handshake"></i>
+                                <span>Compromiso</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span>Organización</span>
+                            </div>
+                            <div class="competencias">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Puntualidad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="descargar_cv">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </section>
+
+        <section id="formacion" class="formacion">
+            <div class="contenido-seccion">
+                <h2>Formación</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Oficial</h3>
+                        <div class="item izq">
+                            <h4>Grado en Ingeniería Informática</h4>
+                            <a class="lugar" href="https://www.uclm.es/">Universidad de Castilla-La Mancha, Ciudad Real</a>
+                            <a class="lugar" href="https://esi.uclm.es/">Escuela Superior de Informática</a>
+                            <span class="fecha">2020-2024</span>
+                            <span class="fecha">Intensificación: Tecnologías de la Información</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Bachillerato </h4>
+                            <a class="lugar" href="http://ies-bbalbuena.centros.castillalamancha.es/">IES Bernardo de Balbuena, Valdepeñas</a>
+                            <span class="fecha">2018-2020</span>
+                            <span class="fecha">Modalidad: Ciencias Tecnológicas</span>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col derecha">
+                        <h3>Complementaria</h3>
+                        <div class="item der">
+                            <h4>Automatización de Procesos Básica</h4>
+                            <a class="lugar" href="https://www.bizagi.com/es">Bizagi</a>
+                            <span class="fecha">2023</span>
+                            <span class="fecha">Asignatura: Ingeniería de Negocio</span>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="tecnologias">
+            <div class="contenido-seccion">
+                <h2>Tecnologías<br></h2>
+                <div>
+                    <br>
+                </div>
+                <section class="clients section-padding">
+                    <div class="container">
+                        <div class="row align-items-center">     
+                            <div class="row">
+                                <div class="col"></div>
+                                    <div class="col-auto">Lenguajes de programación</div>
+                                <div class="col"><hr></div>
+                            </div>
+                            
+                            <div>
+                                <br>
+                            </div>
+
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)">
+                                    <img src="img/iconos/javaIcon.webp" class="clients-image img-fluid" title="Lenguaje Java" alt="icono lenguaje Java">
+                                </a>
+                            </div>
+
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://es.wikipedia.org/wiki/Python">
+                                    <img src="img/iconos/pythonIcon.webp" class="clients-image img-fluid" title="Lenguaje Python" alt="icono lenguaje Python">
+                                </a>
+                            </div>
+    
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">
+                                    <img src="img/iconos/cIcon.webp" class="clients-image img-fluid" title="Lenguaje C" alt="icono lenguaje C">
+                                </a>
+                            </div>
+    
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://es.wikipedia.org/wiki/C_Sharp">
+                                    <img src="img/iconos/csharpIcon.webp" class="clients-image img-fluid" title="Lenguaje C Sharp" alt="icono lenguaje C Sharp">
+                                </a>
+                            </div>
+                            
+    
+                            <div class="row">
+                                <div class="col"></div>
+                                    <div class="col-auto" style="font-size:22px">Bases de datos</div>
+                                <div class="col"><hr></div>
+                            </div>
+                            
+                            <div>
+                                <br>
+                            </div>
+    
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://www.mysql.com/">
+                                    <img src="img/iconos/mySQLicon.webp" class="clients-image img-fluid" title="MySQL" alt="icono MySQL">
+                                </a>
+                            </div>
+    
+                            <div class="row">
+                                <div class="col"></div>
+                                    <div class="col-auto" style="font-size:22px">Entornos de desarrollo</div>
+                                <div class="col"><hr></div>
+                            </div>
+                            
+                            <div>
+                                <br>
+                            </div>
+
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://www.eclipse.org/">
+                                    <img src="img/iconos/eclipse.webp" class="clients-image img-fluid" title="Eclipse" alt="icono Eclipse">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://code.visualstudio.com/">
+                                    <img src="img/iconos/vscode.webp" class="clients-image img-fluid" title="Visual Studio Code" alt="icono VS Code">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://visualstudio.microsoft.com/es/vs">
+                                    <img src="img/iconos/vs.webp" class="clients-image img-fluid" title="Visual Studio" alt="icono Visual Studio">
+                                </a>
+                            </div>
+
+                            
+                            <div class="row">
+                                <div class="col"></div>
+                                    <div class="col-auto" style="font-size:22px">Frameworks</div>
+                                <div class="col"><hr></div>
+                            </div>
+                            
+                            <div>
+                                <br>
+                            </div>
+                            
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://flask.palletsprojects.com/en/2.2.x/">
+                                    <img src="img/iconos/flask.png" class="clients-image img-fluid" title="Flask" alt="icono Flask" style="max-width: 100px;">
+                                </a>
+                            </div>
+                            
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://spring.io/">
+                                    <img src="img/iconos/springIcon.webp" class="clients-image img-fluid" title="Spring" alt="icono Spring">
+                                </a>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col"></div>
+                                    <div class="col-auto" style="font-size:22px">Control de versiones</div>
+                                <div class="col"><hr></div>
+                            </div>
+                            
+                            <div>
+                                <br>
+                            </div>
+
+                            <div class="col-lg-2 col-4 me-auto clients-item-height">
+                                <a href="https://github.com/">
+                                    <img src="img/iconos/git.png" class="clients-image img-fluid" title="GitHub" alt="icono GitHub" style="max-width: 100px">
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>Portfolio</h2>
+                <p>Aquí tienes algunas muestras de proyectos realizados en grupo en diferentes asignaturas.</p>
+                <br>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <a href="https://github.com/sanchezbarba/sanchezbarba.github.io"><img src="img/Esify.png" alt=""s></a>   
+                        <div class="overlay">
+                            <h3>Esify</h3>
+                            <p>Multimedia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/IPOkemon.png" alt="">
+                            <a href="https://pruebasaluuclm-my.sharepoint.com/:f:/g/personal/carlos_almagro_alu_uclm_es/EiOnoNx8zUZPtCOLw0jnrQYB3e2tspAMeIp5JECgYY8uFQ?e=IQnYiZ"></a>
+                        <div class="overlay">
+                            <h3>IPOkemon</h3>
+                            <p>Interacción Persona-Ordenador II</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <a href="https://github.com/sanchezbarba/isi-IsiBets"><img src="img/IsiBets.png" alt=""></a>
+                        <div class="overlay">
+                            <h3>ISIbets</h3>
+                            <p>Integración Sistemas Informáticos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <p>Si estás interesad@, no dudes en contactarme</p>
+                    <div class="info">
+                        <ul>
+                             <li>
+                                <a href="mailto:manuelsanchezbarba@gmail.com"><i class="fa-solid fa-envelope"></i> manuelsanchezbarba@gmail.com</a> 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i> +34 603379509
+                                    
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="texto">
+                <p><span><i class="fa-regular fa-copyright"></i> 2023</span> Manuel Sánchez Sánchez-Barba </p>
+            </div>
+            <div class="redes">
+                <a href="mailto:manuelsanchezbarba@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/manuel-s%C3%A1nchez-s%C3%A1nchez-barba-818b96207/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/sanchezbarba"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </footer>
+
+        <script src="script.js">
+
+        </script>
+    </body>
+</html>
