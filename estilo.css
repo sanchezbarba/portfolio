@@ -381,22 +381,18 @@ html{
 .container-lenguajes{
     display: flex;
     justify-content: space-between;
-    
 }
 .container-web{
     display: flex;
     justify-content: space-between;
-    
 }
 .container-bbdd{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 .container-entornos{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 /* PORTFOLIO */
 .portfolio{
@@ -596,5 +592,17 @@ footer .texto span{
     }
     .formacion .fila .derecha{
         margin-left: 20px;
+    }
+    .container-lenguajes{
+        flex-direction: column;
+    }
+    .container-web{
+        flex-direction: column;
+    }
+    .container-bbdd{
+        flex-direction: column;
+    }
+    .container-entornos{
+        flex-direction: column;
     }
 }
