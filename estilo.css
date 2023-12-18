@@ -198,6 +198,7 @@ html{
 }
 .sobremi .fila .col .contenedor-competencias .competencias:hover{
     background-color: #56C8AB;
+    transform: scale(1.1);
 }
 .sobremi .fila .col .contenedor-competencias .competencias i{
     font-size: 30px;
