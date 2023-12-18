@@ -357,6 +357,9 @@ html{
     text-align: center;
     padding: 20px 0;
 }
+.row-lenguajes{
+    display: inline-block;
+}
 .clients-item-height {
 	height: 110px;
     text-align: center;
@@ -377,6 +380,26 @@ html{
     font-family: 'Righteous';
     margin-bottom: 25px;
     text-align: center;
+}
+.container-lenguajes{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-web{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-bbdd{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-entornos{
+    display: flex;
+    justify-content: space-between;
+    
 }
 /* PORTFOLIO */
 .portfolio{
