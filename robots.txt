@@ -1,4 +1,5 @@
+Sitemap: https://manuelsanchezsanchezbarba.netlify.app/sitemap.xml
+
 User-agent: *
 Disallow: /img/
 
-Sitemap: http://manuelsanchezsanchezbarba.netlify.app/sitemap.xml
